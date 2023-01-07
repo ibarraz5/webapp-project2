@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Phonebook</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        th{
+            font-weight: lighter;
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body >
+<h1>Phonebook</h1>
+
+<p id="message">Phonebook entries:</p>
+<table id="myList1">
+        <tr>
+            <th>ID</th>
+            <th>Last Name</th>
+            <th>First Name</th>
+        </tr>
+        <tr>
+            <th>0</th>
+            <th>Bush</th>
+            <th>Laura</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>Washington</th>
+            <th>Martha</th>
+        </tr>        <tr>
+            <th>2</th>
+            <th>Trump</th>
+            <th>Melania</th>
+        </tr>
+</table>
+
+<label>Last name:</label>
+<input type="text" id="last"><br>
+<label>First name:</label>
+<input type="text" id="first"><br>
+<label>Phone number:</label>
+<input type="text" id="phone"><br>
+<button onclick="addContact()">Add Contact</button><br><br>
+
+<button onclick="newRefresh()">Refresh this list</button>
+<p th:text="${id}" id="enterId"></p>
+
+<script>
+    var valueId= document.getElementById("enterId").innerHTML
+    var authorNum=3
+    myDelete(valueId)
+    function myDelete(valueDelete){
+        var table = document.getElementById("myList1")
+        table.deleteRow(valueDelete)
+    }
+
+    function addContact(){
+
+        var fname= document.getElementById("first").value
+        var lname= document.getElementById("last").value
+        var table = document.getElementById("myList1")
+        if(authorNum>2){
+            var row = table.insertRow(authorNum);
+
+            document.getElementById('message').innerHTML= "Added Author "+fname+" "+lname
+        }else{
+            document.getElementById('message').innerHTML= "Unable to add Author"
+        }
+        var cell1 = row.insertCell(0);
+        var cell2 = row.insertCell(1);
+        var cell3 = row.insertCell(2);
+        cell1.innerHTML = authorNum-1;
+        cell2.innerHTML = lname;
+        cell3.innerHTML = fname;
+        authorNum+=1
+    }
+
+    function newRefresh(){
+        location.reload()
+    }
+</script>
+</body>
+</html>

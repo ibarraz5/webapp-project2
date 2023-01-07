@@ -1,0 +1,2472 @@
+//Query number 1
+
+{
+    routes(name: "48", transportModes: BUS) {
+      gtfsId
+      shortName
+      longName
+      mode
+      stops {
+        id
+      }
+    }
+}
+
+  {
+    "data": {
+      "routes": [
+        {
+          "gtfsId": "tampere:48",
+          "shortName": "48",
+          "longName": "Pohja - Kuhmalahti - Sahalahti - Kangasala",
+          "mode": "BUS",
+          "stops": [
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNTA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNTI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkwMjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxODA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxODE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxODU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNzA="
+            }
+          ]
+        },
+        {
+          "gtfsId": "Kouvola:4800",
+          "shortName": "48",
+          "longName": "Elimäki - Raussila - Koskisto - Hämeenkylä - Joensuunkylä",
+          "mode": "BUS",
+          "stops": [
+            {
+              "id": "U3RvcDpLb3V2b2xhOjUzMjY1"
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzNDgxMw=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzNDgxNQ=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzNDgxOA=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzNDgxOQ=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjMwODQ3Ng=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjM1MzM1Nw=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjE4OTkyNg=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjM1MzM1OA=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjM1MzM2MA=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc2MQ=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc1OQ=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc1Nw=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc1NQ=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc1Mw=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc1MQ=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc0OQ=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc0Nw=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjMwODQ3Mw=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjUwMDEzNw=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjMwODQ3NA=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjM1MzMzOA=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjMwODQ3Mg=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjMwODQ3MQ=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjM1MzMzNw=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjM1MzQyMw=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjMwODQ3MA=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjMwODQ2OQ=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjM1MzMzOQ=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc0OA=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc1MA=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc1Mg=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc1NA=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc1Ng=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc1OA=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzMzc2MA=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjM1MzM1OQ=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjM1MzQzMg=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjMwODQ4OA=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjM1MzM1Ng=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjMwODQ3NQ=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzNDgyMA=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzNDgxNw=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzNDgxNg=="
+            },
+            {
+              "id": "U3RvcDpLb3V2b2xhOjEzNDgxNA=="
+            }
+          ]
+        },
+        {
+          "gtfsId": "Kuopio:48",
+          "shortName": "48",
+          "longName": "Siilinjärvi-Heinämäki-Kolmisoppi",
+          "mode": "BUS",
+          "stops": [
+            {
+              "id": "U3RvcDpLdW9waW86MjQ1MDg="
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MzAwNTMz"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MzA4Mjk5"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3MDc1"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTcyNjUx"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTcyNjUz"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTcyNjU1"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTcyNjU4"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTcyNjYw"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MzMyMjIw"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjM3"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjM4"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjQx"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjQy"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjQ1"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjQ2"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjQ4"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjUw"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjUz"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjU1"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjU3"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjU5"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjYx"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjYy"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjY1"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTg3ODM5"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjY3"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjY5"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3Njcx"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3Njcz"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3Njgy"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3Njgw"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3Njc3"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTg3ODQw"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MzAxMDQx"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MzA4MzIw"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc0MTk3"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc0MTk0"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc0MTky"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc0MTkw"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTg3MzU1"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc0MTg2"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MjMxODMx"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MjMxODQx"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MjMxODQw"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MzU5NzE3"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MzAwNzY3"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MzM4MjE5"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3Njc1"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MjMxODM1"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc0MTg1"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc0MTg3"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc0MTg4"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc0MTg5"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc0MTkx"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc0MTkz"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTg3MzU2"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc0MTk2"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTgwMjMx"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MzAxMDQw"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MzA4MzIx"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3Njgx"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3Njc0"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3Njcy"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3Njcw"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjY4"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjY2"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTg3ODM4"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjY0"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjYz"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjYw"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjU4"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjU2"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjU0"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjUy"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjUx"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjQ5"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjQ3"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjQ0"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjQz"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjQw"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTc3NjM5"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTcyNjU5"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTcyNjU3"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTcyNjU2"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTcyNjU0"
+            },
+            {
+              "id": "U3RvcDpLdW9waW86MTcyNjUy"
+            }
+          ]
+        },
+        {
+          "gtfsId": "tampere:48A",
+          "shortName": "48A",
+          "longName": "Pohja - Pakkala - Sahalahti - Kangasala",
+          "mode": "BUS",
+          "stops": [
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxODE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxODU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNTI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNTQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNzc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMjg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNTA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNTI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkwMjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNTg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxODA="
+            }
+          ]
+        },
+        {
+          "gtfsId": "tampere:48C",
+          "shortName": "48C",
+          "longName": "Pohja - Kivisalmi - Pakkala - Sahalahti - Kangasala",
+          "mode": "BUS",
+          "stops": [
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNTA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNTI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkwMjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNzE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxODA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxODE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNzc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMjg="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNzA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNzI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNzQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNTI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNTQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNjY="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNzA="
+            }
+          ]
+        },
+        {
+          "gtfsId": "tampere:48B",
+          "shortName": "48B",
+          "longName": "Pohja - Kivisalmi - Sahalahti - Kangasala",
+          "mode": "BUS",
+          "stops": [
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxODE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxODU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNzE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNjE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNzA="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNzI="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkyNzQ="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxNDE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkwMjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMzE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMjE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMTE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjkxMDE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDU="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDM="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwNDE="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzk="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzc="
+            },
+            {
+              "id": "U3RvcDp0YW1wZXJlOjgwMzU="
+            }
+          ]
+        },
+        {
+          "gtfsId": "Joensuu:480",
+          "shortName": "480",
+          "longName": "Joensuu  -Ilomantsi",
+          "mode": "BUS",
+          "stops": [
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjUzMzI1"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE3NA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE3MQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE2OQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE2Nw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE2NQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE2Mw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE2MQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE1OQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE1Nw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE1NQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE1Mw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE1MQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE0OQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE0OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE0Ng=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE0Mw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE0MQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEzOQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEzOA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEzNQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEzMw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEzMg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEyOQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEyNw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjMwMjk5OQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEyNQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEyMw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEyMg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDExOQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDExNw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDExNQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDExMw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDExMg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEwOQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEwNw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEwNg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEwMw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEwMQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA5OQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA5Nw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA5NQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA5Mw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA5MQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA4OQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA4Nw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA4Ng=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA4Mw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA4MQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA3OQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA3Nw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA3NQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA3Mw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA3MQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA2OQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA2Nw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3ODMyNA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNDc2"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNTAx"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNTE3"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNTMw"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjExNTE2OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNTU2"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3OTQwMw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3OTQwNA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjMwMDU3Ng=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3ODM4OQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTM2Mg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3OTQwOA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTM2MA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTM1OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTM1Ng=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTM1NA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTM1Mg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjMwMDU5Mg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTM1Mw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTM1NQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTM1Nw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTM1OQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjMwNTc1OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNTE4"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjExNDQ2NQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNTMy"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI3Ng=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI3OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI4MA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjMwMDUzNQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI4Mg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI4Mw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI4NQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI4Nw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI4OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI5MA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI5Mw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI5NA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI5Nw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIxMDE5NA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3OTc2MA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3OTc1OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3OTc1Ng=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjMwMTA1NA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjMwMDc2MA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNTU3"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNTMz"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjExNDQ2Ng=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNTE5"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNTAy"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNDc1"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3ODMyNQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA2OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA3MA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA3Mg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA3NA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA3Ng=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA3OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA4MA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA4Mg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA4NA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA4NQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA4OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA5MA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA5Mg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA5NA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA5Ng=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDA5OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEwMA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEwMg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEwNA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEwNQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEwOA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDExMA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDExMQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDExNA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDExNg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDExOA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEyMA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEyMQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEyNA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEyNg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEyOA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEzMA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEzMQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEzNA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEzNg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDEzNw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE0MA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE0Mg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE0NA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE0NQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE0Nw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE1MA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE1Mg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE1NA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE1Ng=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE1OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE2MA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE2Mg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE2NA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE2Ng=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE2OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE3MA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE3Mg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NDE3Mw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjMwNjQzNA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjMwNjQzNQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjMxMTMwNA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3OTc1Nw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3OTc1OQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3OTc2MQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3OTQwNg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3OTQwNQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI5OA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI5Ng=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI5NQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI5Mg=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI5MQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI4OQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI4Ng=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI4NA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzMTUxOA=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI4MQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI3OQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI3Nw=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjE3NTI3NQ=="
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNTMx"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjIzNTE2"
+            },
+            {
+              "id": "U3RvcDpKb2Vuc3V1OjMxOTQwOA=="
+            }
+          ]
+        },
+        {
+          "gtfsId": "OULU:48",
+          "shortName": "48",
+          "longName": "Teknologiakylä - Heikkilänkangas",
+          "mode": "BUS",
+          "stops": [
+            {
+              "id": "U3RvcDpPVUxVOjEyMDUyOQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDUzOQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDU1Mg=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjMzMDEyMA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDUyOA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDUzNQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDU0NQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDU1OA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjE1MDI0Nw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDYwMg=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDYyNw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjM2MTQxNw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjE4OTY1Ng=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDcxMw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDczNg=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc1NA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjI1ODg4"
+            },
+            {
+              "id": "U3RvcDpPVUxVOjM0OTY="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc4Nw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc4NA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc4Mw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc5NQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc5NA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDgwNQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDgxOA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDgyOA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDg1MQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDg2NA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjMwMTg5OQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDg5OQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDkyMQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDk0Mg=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDk0Nw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDk3NA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDk3Mw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDk4MQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDk4Nw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDk5Nw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMTAxMA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMTAwOQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMTAyMg=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMTAzNQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMTAwNw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMTAwOA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMTAxMQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDk5Ng=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDk4Ng=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDk4MA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDk3Mg=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDk2MA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDk0Ng=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDkyOA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDkyMA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDg5OA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDg4Ng=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDg2Mw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDg1MA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDgyNw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDgxNw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDgwNA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc5Mw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMTUzNw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc4Mg=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc4NQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc4Ng=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc3NA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc3Ng=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc2OQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDc1NQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDczNw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDcxMg=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjE4OTY1Nw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjM2MTQxOA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDYyNQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDYwMw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjE1MDI0OA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDU1Nw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDU0NA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDUzNA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDUyNw=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjMzMDExOQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDUzOA=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDUzMQ=="
+            },
+            {
+              "id": "U3RvcDpPVUxVOjEyMDUzMA=="
+            }
+          ]
+        }
+      ]
+    }
+  }
+
+//Query number 2-1
+  
+  {
+    stops (name: "parola") {
+      gtfsId
+      name
+      lat
+      lon
+      zoneId
+    }
+  }
+  
+  {
+    "data": {
+      "stops": [
+        {
+          "gtfsId": "TampereVR:PRL_0",
+          "name": "Parola",
+          "lat": 61.049922,
+          "lon": 24.366497,
+          "zoneId": null
+        },
+        {
+          "gtfsId": "TampereVR:PRL_1",
+          "name": "Parola",
+          "lat": 61.050261068550654,
+          "lon": 24.365931258385558,
+          "zoneId": null
+        },
+        {
+          "gtfsId": "TampereVR:PRL_3",
+          "name": "Parola",
+          "lat": 61.05004745432432,
+          "lon": 24.366695040136452,
+          "zoneId": null
+        },
+        {
+          "gtfsId": "Hameenlinna:160785",
+          "name": "Parola A",
+          "lat": 61.054869,
+          "lon": 24.372514,
+          "zoneId": "2"
+        },
+        {
+          "gtfsId": "OULU:190185",
+          "name": "Parola P",
+          "lat": 65.032113,
+          "lon": 26.052675,
+          "zoneId": "4"
+        },
+        {
+          "gtfsId": "Hameenlinna:316003",
+          "name": "Parola B",
+          "lat": 61.055332,
+          "lon": 24.37147,
+          "zoneId": "2"
+        },
+        {
+          "gtfsId": "Hameenlinna:139490",
+          "name": "Nanso Parola",
+          "lat": 61.060473,
+          "lon": 24.344884,
+          "zoneId": "2"
+        },
+        {
+          "gtfsId": "Kouvola:82004",
+          "name": "Parola P",
+          "lat": 61.140654,
+          "lon": 27.107695,
+          "zoneId": "1"
+        },
+        {
+          "gtfsId": "Kouvola:82003",
+          "name": "Parola E",
+          "lat": 61.140081,
+          "lon": 27.106616,
+          "zoneId": "1"
+        },
+        {
+          "gtfsId": "FOLI:1013",
+          "name": "Parolanpuisto",
+          "lat": 60.492067,
+          "lon": 22.262316,
+          "zoneId": "FÖLI"
+        }
+      ]
+    }
+  }
+
+//Query number 2-2
+
+  {
+    stopsByRadius(lat:61.049922, lon:24.366497, radius:500) {
+      edges {
+        node {
+          stop {
+            gtfsId
+            name
+          }
+          distance
+        }
+      }
+    }
+  }  
+
+  {
+    "data": {
+      "stopsByRadius": {
+        "edges": [
+          {
+            "node": {
+              "stop": {
+                "gtfsId": "TampereVR:PRL_3",
+                "name": "Parola"
+              },
+              "distance": 293
+            }
+          },
+          {
+            "node": {
+              "stop": {
+                "gtfsId": "TampereVR:PRL_1",
+                "name": "Parola"
+              },
+              "distance": 343
+            }
+          },
+          {
+            "node": {
+              "stop": {
+                "gtfsId": "TampereVR:PRL_0",
+                "name": "Parola"
+              },
+              "distance": 392
+            }
+          },
+          {
+            "node": {
+              "stop": {
+                "gtfsId": "Hameenlinna:137851",
+                "name": "Paloasema I"
+              },
+              "distance": 433
+            }
+          },
+          {
+            "node": {
+              "stop": {
+                "gtfsId": "Hameenlinna:137850",
+                "name": "Paloasema L"
+              },
+              "distance": 441
+            }
+          },
+          {
+            "node": {
+              "stop": {
+                "gtfsId": "Hameenlinna:139484",
+                "name": "Merventie P"
+              },
+              "distance": 482
+            }
+          }
+        ]
+      }
+    }
+  }
